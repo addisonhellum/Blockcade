@@ -1,0 +1,26 @@
+sql-data:
+  host: 'localhost'
+  port: 3307
+  database: 'blockcade'
+  username: 'root'
+  password: ''
+spawnpoint:
+  world: 'world'
+  x: 0.5
+  y: 101
+  z: 0.5
+  yaw: 180
+  pitch: 0
+environmental:
+  allow-weather: false
+  allow-melting: false
+  allow-decay: false
+  use-physics: false
+  spawn-mobs: false
+  allow-fall-damage: false
+  allow-hunger: false
+  allow-all-damage: false
+  allow-pvp: false
+  allow-place-blocks: false
+  allow-break-blocks: false
+  allow-explosions: false

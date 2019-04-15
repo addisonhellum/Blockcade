@@ -1,0 +1,63 @@
+name: Blockcade
+version: 0.1-SNAPSHOT
+author: Blockcade Development Team
+description: Core functionality and libraries for the Blockcade network.
+main: us.blockcade.core.Main
+
+commands:
+  help:
+    description: Help guide for players.
+    aliases: [h]
+  spawn:
+    description: Teleport to the server's spawnpoint.
+    aliases: [spawnpoint]
+  survival:
+    description: Set your gamemode to Survival mode.
+    aliases: [s, gms, gm0]
+  creative:
+    description: Set your gamemode to Creative mode.
+    aliases: [c, gmc, gm1]
+  adventure:
+    description: Set your gamemode to Adventure mode.
+    aliases: [a, gma, gm2]
+  spectator:
+    description: Set your gamemode to Spectator mode.
+    aliases: [sp, gmsp, gm3]
+  ao:
+    description: Override the server regulation features.
+    aliases: [adminoverride, adminoveride, aoverride, aoveride, admino, override, overide]
+  punish:
+    description: Punish a player for breaking the rules.
+    aliases: [p, pnsh, punishment]
+  ban:
+    description: Ban a player from the network.
+    aliases: [banish, banhammer]
+  mute:
+    description: Revoke a player's ability to chat.
+    aliases: [silence, shutup]
+  kick:
+    description: Kick a player off of the network.
+    aliases: [boot, knock]
+  setrank:
+    description: Update a player's global rank status.
+    aliases: [sr, updaterank, srank]
+  environment:
+    description: Manage the server's environment settings.
+    aliases: [envo, env, enviro]
+  setspawn:
+    description: Set the spawn location of your server.
+    aliases: [makespawn]
+  headsup:
+    description: Warn online users of a mandatory server reload/restart.
+    aliases: [hu, reloadwarning, reloadwarn, rwarn]
+  recache:
+    description: Update all online player caches.
+    aliases: [updatecache, updatecaches, uc]
+  givecoins:
+    description: Give coins to a player.
+    aliases: [addcoins, grantcoins, gc]
+  chatstar:
+    description: Change the color of your chat star.
+  connect:
+    description: Connect to another server.
+    aliases: [conn, goto, server]
